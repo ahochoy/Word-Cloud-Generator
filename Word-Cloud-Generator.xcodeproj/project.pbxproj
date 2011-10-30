@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB74A921145DF8B1009F713C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB74A920145DF8B1009F713C /* Foundation.framework */; };
+		FB74A921145DF8B1009F713C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB74A920145DF8B1009F713C /* Foundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		FB74A924145DF8B1009F713C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB74A923145DF8B1009F713C /* main.m */; };
 		FBDE0E80145DFADC0035577B /* MPPPost.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDE0E7B145DFADC0035577B /* MPPPost.m */; };
 		FBDE0E81145DFADC0035577B /* WordCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDE0E7D145DFADC0035577B /* WordCloud.m */; };
@@ -126,6 +126,9 @@
 /* Begin PBXProject section */
 		FB74A913145DF8B0009F713C /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = FB74A916145DF8B0009F713C /* Build configuration list for PBXProject "Word-Cloud-Generator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -172,7 +175,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -186,7 +189,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
