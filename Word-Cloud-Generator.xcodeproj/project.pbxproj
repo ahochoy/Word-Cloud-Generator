@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB74A921145DF8B1009F713C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB74A920145DF8B1009F713C /* Foundation.framework */; };
+		FB74A924145DF8B1009F713C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB74A923145DF8B1009F713C /* main.m */; };
+		FBDE0E80145DFADC0035577B /* MPPPost.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDE0E7B145DFADC0035577B /* MPPPost.m */; };
+		FBDE0E81145DFADC0035577B /* WordCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDE0E7D145DFADC0035577B /* WordCloud.m */; };
+		FBDE0E82145DFADC0035577B /* WordTag.m in Sources */ = {isa = PBXBuildFile; fileRef = FBDE0E7F145DFADC0035577B /* WordTag.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB74A91A145DF8B0009F713C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB74A91C145DF8B1009F713C /* Word-Cloud-Generator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Word-Cloud-Generator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB74A920145DF8B1009F713C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB74A923145DF8B1009F713C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB74A926145DF8B1009F713C /* Word-Cloud-Generator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Word-Cloud-Generator-Prefix.pch"; sourceTree = "<group>"; };
+		FB74A927145DF8B1009F713C /* Word_Cloud_Generator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Word_Cloud_Generator.1; sourceTree = "<group>"; };
+		FBDE0E7A145DFADC0035577B /* MPPPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPPPost.h; sourceTree = "<group>"; };
+		FBDE0E7B145DFADC0035577B /* MPPPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPPPost.m; sourceTree = "<group>"; };
+		FBDE0E7C145DFADC0035577B /* WordCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCloud.h; sourceTree = "<group>"; };
+		FBDE0E7D145DFADC0035577B /* WordCloud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCloud.m; sourceTree = "<group>"; };
+		FBDE0E7E145DFADC0035577B /* WordTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordTag.h; sourceTree = "<group>"; };
+		FBDE0E7F145DFADC0035577B /* WordTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordTag.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB74A919145DF8B0009F713C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB74A921145DF8B1009F713C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB74A911145DF8B0009F713C = {
+			isa = PBXGroup;
+			children = (
+				FB74A922145DF8B1009F713C /* Word-Cloud-Generator */,
+				FB74A91F145DF8B1009F713C /* Frameworks */,
+				FB74A91D145DF8B1009F713C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB74A91D145DF8B1009F713C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB74A91C145DF8B1009F713C /* Word-Cloud-Generator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB74A91F145DF8B1009F713C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB74A920145DF8B1009F713C /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB74A922145DF8B1009F713C /* Word-Cloud-Generator */ = {
+			isa = PBXGroup;
+			children = (
+				FBDE0E7A145DFADC0035577B /* MPPPost.h */,
+				FBDE0E7B145DFADC0035577B /* MPPPost.m */,
+				FBDE0E7C145DFADC0035577B /* WordCloud.h */,
+				FBDE0E7D145DFADC0035577B /* WordCloud.m */,
+				FBDE0E7E145DFADC0035577B /* WordTag.h */,
+				FBDE0E7F145DFADC0035577B /* WordTag.m */,
+				FB74A923145DF8B1009F713C /* main.m */,
+				FB74A927145DF8B1009F713C /* Word_Cloud_Generator.1 */,
+				FB74A925145DF8B1009F713C /* Supporting Files */,
+			);
+			path = "Word-Cloud-Generator";
+			sourceTree = "<group>";
+		};
+		FB74A925145DF8B1009F713C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB74A926145DF8B1009F713C /* Word-Cloud-Generator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB74A91B145DF8B0009F713C /* Word-Cloud-Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB74A92A145DF8B1009F713C /* Build configuration list for PBXNativeTarget "Word-Cloud-Generator" */;
+			buildPhases = (
+				FB74A918145DF8B0009F713C /* Sources */,
+				FB74A919145DF8B0009F713C /* Frameworks */,
+				FB74A91A145DF8B0009F713C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Word-Cloud-Generator";
+			productName = "Word-Cloud-Generator";
+			productReference = FB74A91C145DF8B1009F713C /* Word-Cloud-Generator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB74A913145DF8B0009F713C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FB74A916145DF8B0009F713C /* Build configuration list for PBXProject "Word-Cloud-Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB74A911145DF8B0009F713C;
+			productRefGroup = FB74A91D145DF8B1009F713C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB74A91B145DF8B0009F713C /* Word-Cloud-Generator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB74A918145DF8B0009F713C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB74A924145DF8B1009F713C /* main.m in Sources */,
+				FBDE0E80145DFADC0035577B /* MPPPost.m in Sources */,
+				FBDE0E81145DFADC0035577B /* WordCloud.m in Sources */,
+				FBDE0E82145DFADC0035577B /* WordTag.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB74A928145DF8B1009F713C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB74A929145DF8B1009F713C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB74A92B145DF8B1009F713C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Word-Cloud-Generator/Word-Cloud-Generator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB74A92C145DF8B1009F713C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Word-Cloud-Generator/Word-Cloud-Generator-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB74A916145DF8B0009F713C /* Build configuration list for PBXProject "Word-Cloud-Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB74A928145DF8B1009F713C /* Debug */,
+				FB74A929145DF8B1009F713C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB74A92A145DF8B1009F713C /* Build configuration list for PBXNativeTarget "Word-Cloud-Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB74A92B145DF8B1009F713C /* Debug */,
+				FB74A92C145DF8B1009F713C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB74A913145DF8B0009F713C /* Project object */;
+}

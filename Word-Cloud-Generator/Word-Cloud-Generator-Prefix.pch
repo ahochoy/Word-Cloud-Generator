@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Word-Cloud-Generator' target in the 'Word-Cloud-Generator' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
